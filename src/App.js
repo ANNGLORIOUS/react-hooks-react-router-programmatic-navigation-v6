@@ -21,7 +21,7 @@ function App() {
     } else {
       navigate("/login");
     }
-  }, [isLoggedIn]);
+  }, [isLoggedIn ,navigate]);
 
   return (
     <div className="app">
